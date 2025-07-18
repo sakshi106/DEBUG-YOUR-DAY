@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Quote Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="top-nav">
+    <div class="nav-left">
+         <h2>Debug Your Day</h2> 
+    </div>
+
+<div class="nav-right">
+        <button id="copyBtn"> Copy</button>
+        <button id="saveBtn"> Save</button>
+        <button id="shareBtn"> Share</button>
+</div>
+</nav>
+
+<!-- 🔹 Daily Motivational Banner -->
+<div class="daily-banner" id="dailyBanner"></div>
+
+<!-- 🔹 Add Your Own Quote -->
+<div class="custom-quote">
+  <input type="text" id="customQuoteInput" placeholder="Write your quote..." />
+  <button id="addQuoteBtn">➕ Add Quote</button>
+</div>
+
+
+<div class="container">
+    <div class="quote-card">
+      <h1 class="title">💻 DEV QUOTE OF THE DAY</h1>
+      <p id="quote">Click below to get inspired!</p>
+      <button id="generateBtn">🎯 Generate Quote</button>
+      
+       <h3 id=""> Favorite Quotes</h3>
+      <ul id="favorites"></ul>
+    </div>
+</div>
+
+<footer class="app-footer">
+  <p>🚀 Built with ❤️ for Developers | <span id="footerDate"></span></p>
+
+  <div class="daily-quote-box">
+  <span id="dailyQuote"></span>
+</div>
+
+</footer>
+<script src="script.js"></script>
+</body>
+
+
+
+</html>
